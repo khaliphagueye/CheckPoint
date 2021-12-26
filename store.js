@@ -3,6 +3,9 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
+var btnvar1 = document.getElementsByClassName('btn1');
+
+
 
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
@@ -25,6 +28,24 @@ function ready() {
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
+function myFunction1() {
+    document.getElementById("btnh1").className = "rreedd";
+  }  
+  function myFunction2() {
+    document.getElementById("btnh2").className = "rreedd";
+  }
+  function myFunction3() {
+    document.getElementById("btnh3").className = "rreedd";
+  }
+  function myFunction4() {
+    document.getElementById("btnh4").className = "rreedd";
+  }
+  function myFunction5() {
+    document.getElementById("btnh5").className = "rreedd";
+  }
+    function myFunction6() {
+    document.getElementById("btnh6").className = "rreedd";
+  }
 
 function purchaseClicked() {
     alert('Merci pour votre achat')

@@ -1,95 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lifa | Store</title>
-        <meta name="description" content="This is the description">
-        <link rel="icon" type="image/x-icon" href="Images/logo.jpg" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="store.js"></script>
-
-    </head>
-    <body>
-        <header class="main-header">
-            <nav class="main-nav nav"> 
-            </nav>
-            <h1 class="band-name band-name-large">LIFA STORE</h1>
-        </header>
-        <section class="container content-section">
-            <h2 class="section-header">MUSIQUE</h2>
-            <div class="shop-items">
-                <div class="shop-item">
-                    <span class="shop-item-title">Album 1</span>
-                    <img class="shop-item-image" src="Images/Album 1.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$12.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">Album 2</span>
-                    <img class="shop-item-image" src="Images/Album 2.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$14.99</span>
-                        <button class="btn btn-primary shop-item-button"type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">Album 3</span>
-                    <img class="shop-item-image" src="Images/Album 3.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$9.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">Album 4</span>
-                    <img class="shop-item-image" src="Images/Album 4.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$19.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container content-section">
-            <h2 class="section-header">MARCHANDISES</h2>
-            <div class="shop-items">
-                <div class="shop-item">
-                    <span class="shop-item-title">T-Shirt</span>
-                    <img class="shop-item-image" src="Images/Shirt.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$19.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">Tasse de café</span>
-                    <img class="shop-item-image" src="Images/coffee.png">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$6.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">AJOUTER AU PANIER</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container content-section">
-            <h2 class="section-header">PANIER</h2>
-            <div class="cart-row">
-                <span class="cart-item cart-header cart-column">ARTICLES</span>
-                <span class="cart-price cart-header cart-column">PRIX</span>
-                <span class="cart-quantity cart-header cart-column">QUANTITÉ</span>
-            </div>
-            <div class="cart-items">
-            </div>
-            <div class="cart-total">
-                <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">$0</span>
-            </div>
-            <button class="btn btn-primary btn-purchase" type="button">ACHETER</button>
-        </section><footer class="main-footer">
-            <div class="container main-footer-container">
-                <h3 class="band-name">Lifa SHOP</h3>
-            </div>
-        </footer>
-    </body>
+  <head>
+    <title>Lifa | Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="icon" type="image/x-icon" href="Images/logo.jpg" />
+    <script
+      src="https://kit.fontawesome.com/f6dcf461c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js"></script>
+    <script>
+     
+    </script>
+    <style>
+       
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav nav"></nav>
+      <h1 class="band-name band-name-large">LIFA STORE</h1>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">MUSIQUE</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img class="shop-item-image" src="Images/Album 1.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction1()" id="btnh1" >
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 2</span>
+          <img class="shop-item-image" src="Images/Album 2.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction2()" id="btnh2" >
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 3</span>
+          <img class="shop-item-image" src="Images/Album 3.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$9.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction3()" id="btnh3" >
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 4</span>
+          <img class="shop-item-image" src="Images/Album 4.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction4()" id="btnh4">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">MARCHANDISES</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">T-Shirt</span>
+          <img class="shop-item-image" src="Images/Shirt.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction5()" id="btnh5">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Tasse de café</span>
+          <img class="shop-item-image" src="Images/coffee.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$6.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              AJOUTER AU PANIER
+            </button>
+          </div>
+          <div class="btns">
+            <button onclick="myFunction6()" id="btnh6">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">PANIER</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ARTICLES</span>
+        <span class="cart-price cart-header cart-column">PRIX</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITÉ</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        ACHETER
+      </button>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">Lifa SHOP</h3>
+      </div>
+    </footer>
+  </body>
 </html>
